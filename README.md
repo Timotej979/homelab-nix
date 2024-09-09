@@ -1,8 +1,8 @@
 # Homelab-Nix
 
 <div align="center">
-  <img src="./docs/assets/nix-logo.svg">
-  <img src="./docs/">
+  <img src="./docs/assets/images/nix-logo.png">
+  <img src="./docs/assets/images/infisical-logo.png">
 </div>
 
 Homelab configuration for the NixOS running on bare-metal hardware. We are using proxmox on top of NixOS as a virtualization platform and [terraform](https://github.com/Timotej979/homelab-terraform) to dynamicaly provision the VMs for the kubernetes clusters. Secrets management is done using Infisical secrets storage available in the cloud so we have a completely reporoducible infrastructure.
